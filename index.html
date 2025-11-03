@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempat Belajar Excel - Kuasai Excel langsung dengan Contoh Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loadingSpinner" aria-label="Loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home" aria-label="Beranda">
+                <i class="fas fa-file-excel"></i> Tempat Belajar Excel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" aria-label="Beranda">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses" aria-label="Kursus">Kursus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" aria-label="Tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" aria-label="Kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Menjadi Master Excel dengan Contoh Data</h1>
+                        <p class="hero-subtitle">Pelajari fungsi-fungsi Excel tingkat lanjut dengan contoh praktis dan dataset yang dapat diunduh</p>
+                        <a href="#courses" class="btn btn-primary-custom" aria-label="Mulai Belajar Sekarang">Gas Belajar Sekarang</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/profile/excelduplicates.png" alt="Excel Learning" class="img-fluid rounded-3 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main id="mainContent">
+        <!-- Courses Section -->
+        <section class="lesson-section" id="courses">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Kursus Excel Tersedia</h2>
+                    <p class="section-subtitle">Pilih dari berbagai kursus Excel yang dirancang untuk meningkatkan kemampuan analisis data Anda</p>
+                </div>
+                
+                <div class="row g-4" id="coursesContainer">
+                    <!-- Courses will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="lesson-section bg-light" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <img src="assets/images/profile/s67 2025-12.jpg" alt="Nicky - Web Developer" class="img-fluid rounded-circle shadow mb-4 mb-lg-0">
+                    </div>
+                    <div class="col-lg-8">
+                        <h2 class="section-title">Tentang Saya</h2>
+                        <div class="about-content">
+                            <p>Halo! Saya Nicky, seorang Web Developer dan UI/UX Designer yang juga sedang mendalami dunia data analytics. Website ini saya buat sebagai ruang pembelajaran terbuka bagi siapa pun yang ingin memahami Excel — dari dasar hingga penerapan nyata dalam analisis data.</p>
+                            
+                            <p>Saya percaya bahwa belajar Excel tidak harus rumit. Dengan pendekatan yang praktis, visual yang intuitif, dan penjelasan yang mudah dipahami, saya berharap website ini bisa menjadi teman belajar yang menyenangkan dan bermanfaat untuk pelajar, profesional, maupun siapa saja yang ingin meningkatkan skill digitalnya.</p>
+                            
+                            <p>Selain sebagai media edukasi, website ini juga merupakan bagian dari portfolio pribadi saya. Di sini, saya menggabungkan keahlian teknis, desain, dan strategi digital untuk menciptakan pengalaman pengguna yang nyaman dan berdampak. Setiap halaman, konten, dan fitur dirancang dengan semangat berbagi dan eksplorasi.</p>
+                            
+                            <p>Terima kasih sudah berkunjung. Semoga apa yang saya bagikan bisa membantu perjalanan belajarmu. Jangan ragu untuk menjelajahi, mencoba, dan bertanya — karena belajar adalah proses yang selalu berkembang.</p>
+                            
+                            <p class="signature">Salam hangat,<br>Nicky</p>
+                            
+                            <div class="social-links mt-4">
+                                <a href="#" class="social-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="lesson-section" id="contact">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Hubungi Kami</h2>
+                    <p class="section-subtitle">Ada pertanyaan? Jangan ragu untuk menghubungi kami</p>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-5">
+                                <form id="contactForm">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="name" class="form-label">Nama Lengkap</label>
+                                            <input type="text" class="form-control" id="name" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="email" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="subject" class="form-label">Subjek</label>
+                                            <input type="text" class="form-control" id="subject" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="message" class="form-label">Pesan</label>
+                                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                                        </div>
+                                        <div class="col-12 text-center">
+                                            <button type="submit" class="btn btn-primary-custom">Kirim Pesan</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="footer-title">Tempat Belajar Excel</h3>
+                    <p>Platform pembelajaran Excel dengan dataset nyata untuk meningkatkan kemampuan analisis data Anda.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/nicky-syam-rijal" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h3 class="footer-title">Tautan Cepat</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" aria-label="Beranda">Beranda</a></li>
+                        <li><a href="#courses" aria-label="Kursus">Kursus</a></li>
+                        <li><a href="#about" aria-label="Tentang">Tentang</a></li>
+                        <li><a href="#contact" aria-label="Kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 class="footer-title">Kursus Populer</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="loadLesson(1)" aria-label="VLOOKUP Mastery">VLOOKUP Mastery</a></li>
+                        <li><a href="#" onclick="loadLesson(2)" aria-label="XLOOKUP Tutorials">XLOOKUP Tutorials</a></li>
+                        <li><a href="#" onclick="loadLesson(3)" aria-label="LET Function">LET Function</a></li>
+                        <li><a href="#" onclick="loadLesson(4)" aria-label="INDEX, MATCH & XMATCH">INDEX, MATCH & XMATCH</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h3 class="footer-title">Kontak Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Tangerang, Indonesia</li>
+                        <li><i class="fas fa-phone me-2"></i> +62 851-2940-8114</li>
+                        <li><i class="fas fa-envelope me-2"></i> nickyysyam@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Nicky Syam Rijal. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
