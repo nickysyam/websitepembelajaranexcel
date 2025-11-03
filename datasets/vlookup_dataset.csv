@@ -1,0 +1,11 @@
+ID Karyawan,Nama,Departemen,Posisi,Gaji,Tanggal Bergabung,Akhir Masa Percobaan
+E001,John Smith,HR,Manager,75000000,15/01/2023,15/04/2023
+E002,Jane Doe,Finance,Analyst,65000000,22/03/2023,22/06/2023
+E003,Mike Johnson,IT,Developer,80000000,10/06/2023,10/09/2023
+E004,Sarah Williams,Marketing,Specialist,60000000,05/02/2023,05/05/2023
+E005,David Brown,Sales,Executive,70000000,12/01/2023,12/04/2023
+E006,Emily Davis,HR,Coordinator,55000000,18/03/2023,18/06/2023
+E007,Michael Wilson,Finance,Manager,85000000,25/01/2023,25/04/2023
+E008,Jessica Martinez,IT,Analyst,68000000,08/02/2023,08/05/2023
+E009,Robert Taylor,Sales,Representative,52000000,14/03/2023,14/06/2023
+E010,Lisa Anderson,Marketing,Manager,78000000,20/01/2023,20/04/2023

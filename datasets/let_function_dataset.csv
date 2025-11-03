@@ -1,0 +1,74 @@
+Nilai 1,Nilai 2,Hasil
+10,5,15
+20,8,28
+15,7,22
+Bulan,Penjualan
+Januari,1500000
+Februari,1200000
+Maret,1300000
+Siswa,Skor,Nilai
+John,88,B
+Jane,92,A
+Mike,78,C
+Tekanan (P),Volume (V),Hasil
+500,0.04,166.28
+600,0.05,249.42
+700,0.03,174.59
+Hari,Pengeluaran
+Senin,50000
+Selasa,75000
+Rabu,60000
+Kamis,
+Jumat,
+Nama,Sapaan
+Waqas,Halo Waqas!
+Sara,Halo Sara!
+Ahmed,Halo Ahmed!
+Produk,Kuantitas,Status
+Laptop,50,Rendah
+Handphone,150,Tinggi
+Tablet,80,Rendah
+Item,Unit,Digandakan
+Produk A,5,10
+Produk B,8,16
+Produk C,12,24
+Karyawan,Gaji
+John,50000000
+Jane,55000000
+Mike,60000000
+Nama Depan,Nama Belakang,Nama Lengkap
+Ahmed,Riaz,Ahmed Riaz
+Sara,Khan,Sara Khan
+Mike Johnson,Mike Johnson
+Produk,Harga,Pajak
+Laptop,2500000,250000
+Handphone,800000,80000
+Tablet,600000,60000
+Lingkaran,Jari-jari,Luas
+Lingkaran 1,7,153.94
+Lingkaran 2,5,78.54
+Lingkaran 3,10,314.16
+Nilai 1,Nilai 2,Hasil
+15,10,X lebih besar
+8,12,Y lebih besar
+20,20,X lebih besar
+Angka,Status
+15,Positif
+-8,Negatif
+0,Negatif
+Angka,Dikuadratkan
+2,4
+4,16
+6,36
+Pokok,Suku,Peracikan/Tahun,Tahun,Jumlah
+1000000,5%,12,5,1283359
+2000000,4%,4,10,2966723
+5000000,6%,2,8,8038539
+Produk,Jan,Feb,Mar
+Produk A,100,120,110
+Produk B,80,90,95
+Produk C,150,160,170
+Kode Kota,Nama Kota
+NYC,New York
+LAX,Los Angeles
+CHI,Chicago
