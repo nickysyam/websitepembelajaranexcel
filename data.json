@@ -369,8 +369,8 @@
             "conclusion": "<p>INDEX, MATCH, dan XMATCH adalah fungsi pencarian kuat yang membantu Anda mencari, mengekstrak, dan menganalisis data lebih akurat di Excel. Dengan mempelajari teknik-teknik Advanced ini, Anda dapat membangun laporan lebih cerdas, mengotomatiskan pencarian, dan bekerja lebih cepat dengan dataset apa pun.</p><p>Keuntungan utama fungsi-fungsi ini atas VLOOKUP:</p><ul><li>Lebih fleksibel - dapat mencari nilai di kolom mana pun, tidak hanya yang pertama</li><li>Lebih kuat - dapat menangani beberapa kriteria dan kondisi kompleks</li><li>Lebih efisien - XMATCH lebih cepat dari MATCH untuk dataset besar</li><li>Lebih serbaguna - dapat melakukan pencarian terbalik, kecocokan perkiraan, dan pencarian wildcard</li></ul><p>Berlatih rumus-rumus ini secara teratur untuk meningkatkan keterampilan Anda dan meningkatkan produktivitas di Excel. Semakin banyak Anda menggunakannya, semakin alami mereka akan menjadi, dan segera Anda akan melakukan pencarian kompleks dengan mudah.</p>",
             "dataset": {
                 "description": "Dataset ini berisi data karyawan lengkap yang digunakan dalam semua contoh INDEX, MATCH, dan XMATCH. Dataset mencakup ID karyawan, nama, departemen, peran, gaji, pengalaman, dan rating untuk latihan.",
-                "downloadLink": "index_match_xmatch_dataset.csv",
-                "fileName": "index_match_xmatch_dataset.csv"
+                "downloadLink": "datasets/index_match_xmatch_dataset.csv",
+                "fileName": "datasets/index_match_xmatch_dataset.csv"
             }
         }
     }
